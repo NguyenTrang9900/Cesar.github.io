@@ -1,0 +1,111 @@
+                .intro {
+                    width: 90%;
+                    margin: auto;
+                    padding: 85px 0;
+                    text-align: center;
+                }
+                
+                .intro h1 {
+                    margin-bottom: 25px;
+                    font-size: 19px;
+                    text-transform: uppercase;
+                }
+                
+                .intro p {
+                    font-size: 15px;
+                }
+                
+                .line {
+                    position: relative;
+                }
+                
+                .line::before {
+                    background: #1d1d1b;
+                    content: "";
+                    width: 9%;
+                    height: 1px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                
+                .line>ul {
+                    width: 71.8%;
+                    height: auto;
+                    margin: 0 auto;
+                    display: flex;
+                    overflow: hidden;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    list-style-type: none;
+                }
+                
+                .line>ul>li {
+                    width: 47.5%;
+                    margin-bottom: 60px;
+                }
+                
+                figure {
+                    display: block;
+                }
+                
+                figure>img {
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+                
+                li.down figcaption {
+                    margin: -40px 0 0 0;
+                    display: block;
+                    text-align: center;
+                    position: relative;
+                }
+                
+                li.down figcaption::before {
+                    content: '';
+                    background: #1d1d1b;
+                    width: 1px;
+                    height: 70px;
+                    display: block;
+                    margin: 0 auto 20px auto;
+                }
+                
+                li.up figcaption {
+                    margin: 0 0 0 0;
+                    display: block;
+                    text-align: center;
+                    position: relative;
+                }
+                
+                li.up figcaption::after {
+                    content: '';
+                    background: #1d1d1b;
+                    width: 1px;
+                    height: 70px;
+                    display: block;
+                    margin: 20px auto 0 auto;
+                }
+                
+                li.up img {
+                    margin-top: -35px;
+                }
+                
+                h3 {
+                    line-height: 24px;
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+                
+                span {
+                    font-size: 15px;
+                    color: #464644;
+                }
+                
+                li {
+                    transition: 0.3s;
+                }
+                
+                li:hover {
+                    opacity: 60%;
+                }

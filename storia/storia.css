@@ -1,0 +1,145 @@
+.storia__main {
+    background: #1d1d1b url('./storia_image/bg.jpg') left top no-repeat;
+    padding-top: 4.86vw;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#storia__section {
+    width: 600px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.padder {
+    padding: 60px 50px;
+}
+
+.storia__title {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.18;
+    font-family: inherit;
+    color: #1d1d1b;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 1rem 0 0;
+}
+
+.text {
+    font-family: serif;
+    margin: 3em 0 0;
+    font-size: 15px;
+    line-height: 1.714;
+}
+
+.image__wrapper {
+    position: relative;
+    margin: 3em 0 3em;
+    z-index: 2;
+}
+
+.image__wrapper>figure>img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text>img {
+    max-width: 200px;
+    margin: 0;
+}
+
+.banner__bottom {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -10%;
+}
+
+.bottom__to__top {
+    transform: translateY(20%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.bottom__to__top.start {
+    opacity: 100%;
+    transform: translateY(0);
+}
+
+footer {
+    margin-block-start: unset;
+}
+
+.left_1_1 {
+    position: absolute;
+    left: -70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_1_2 {
+    position: absolute;
+    right: -70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left_1_3 {
+    position: absolute;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_1_4 {
+    position: absolute;
+    right: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left_1_5 {
+    position: absolute;
+    left: -70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_1_6 {
+    position: absolute;
+    right: -70%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left__to__right {
+    opacity: 0;
+    left: -170%;
+    transition: 1s;
+}
+
+.left__to__right.start {
+    opacity: 100%;
+    left: -70%;
+}
+
+.right__to__left {
+    opacity: 0;
+    right: -170%;
+    transition: 1s;
+}
+
+.right__to__left.start {
+    opacity: 100%;
+    right: -70%;
+}
